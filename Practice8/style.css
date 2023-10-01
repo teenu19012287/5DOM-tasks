@@ -1,0 +1,74 @@
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body,html{
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    background-color: aqua;
+    justify-content: center;
+    text-align: center;
+    padding: 20%;
+    
+   
+}
+
+#card{
+    border-radius: 10px;
+   background-color: white;
+    height: 450px;
+    width: 400px;
+    border: 2px solid black;
+    position: relative;
+}
+
+#storiya{
+    height: 120px;
+    border-radius: 10px;
+    width: 400px;
+    padding: 15px;
+  border-bottom: 2px solid #dadada;
+  white-space: nowrap;
+  overflow-x: auto;
+  overflow-y: hidden;
+    
+}
+#storiya::-webkit-scrollbar
+{
+  display: none;
+}
+
+#story{
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+  border: 3px solid red;
+  overflow: hidden;
+  display: inline-block;
+  margin-right: 5px;
+}
+
+#story img{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    
+    object-position: center;
+
+}
+
+#full-screen{
+    height: 100%;
+    width: 100%;
+    display: none;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+}
